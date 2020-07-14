@@ -1,0 +1,13 @@
+server:
+  port: 9000
+
+cloud:
+  aws:
+    region:
+      static: ap-south-1
+      auto: false
+    credentials:
+      access-key: <ACCESS_KEY>
+      secret-key: <SECRET_KEY>
+    end-point:
+      uri: <ENDPOINT>
